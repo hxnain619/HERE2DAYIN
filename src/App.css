@@ -11,8 +11,10 @@
   position: relative;
   min-height: 100vh;
   background-color: #fff;
-  width: 23%;
+  width: 261px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }

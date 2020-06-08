@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../App.css';
-
+import BgImage from '../../Assets/background.svg';
 const AppContainer = ({ children, gradient = 'linear-gradient(180deg, #36D1DC -9.85%, #5B86E5 69.33%)' }) => {
-    console.log(gradient);
     return (
         <div className="app-screen" style={styles.container(gradient)}>
             {children}
@@ -13,7 +12,7 @@ const AppContainer = ({ children, gradient = 'linear-gradient(180deg, #36D1DC -9
 const styles = {
     container: gradient => {
         return {
-            backgroundImage: `url(/static/media/background.a5cbf223.svg), ${gradient}`,
+            backgroundImage: `url(${BgImage}), ${gradient}`,
         }
     }
 }

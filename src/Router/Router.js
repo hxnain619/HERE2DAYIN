@@ -7,13 +7,14 @@ import {
 } from "react-router-dom";
 import About from '../Views/About';
 import Authorization from '../Views/Authorization';
+import Home from '../Views/Home';
 
 const RouterComponent = () => {
     return (
         <Router>
             <Switch>
-                <Route path="/" component={Authorization} />
-                {/* <Route path="/home"  component={Home}/> */}
+                <Route exact path="/" component={Authorization} />
+                <Route path="/home"  component={Home}/>
                 {/* <Route path="/about" component={About} /> */}
                 {/* <Route path="/happiness-program" component={Happiness}/> */}
             </Switch>
