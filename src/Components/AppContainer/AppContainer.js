@@ -13,6 +13,7 @@ const styles = {
     container: gradient => {
         return {
             backgroundImage: `url(${BgImage}), ${gradient}`,
+            
         }
     }
 }

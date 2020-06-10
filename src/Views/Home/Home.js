@@ -8,6 +8,7 @@ import Muscle from '../../Assets/icons/muscle.svg';
 import Sleep from '../../Assets/icons/sleep.svg';
 import Yoga from '../../Assets/icons/yoga.svg';
 import Circle from '../../Assets/icons/circle.svg';
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -43,7 +44,9 @@ const Home = () => {
 
                 <div className="footer">
                     <MDBBtn className="roundedBtn" color="white">
-                        <span className="buttonText">Continue</span>
+                        <Link to='/ExperienceStep1' >
+                            <span className="buttonText" >Continue</span>
+                        </Link>
                     </MDBBtn>
                 </div>
             </div>

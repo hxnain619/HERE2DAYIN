@@ -1,8 +1,6 @@
 .App {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   background-color: #282c34;
 }
@@ -11,10 +9,18 @@
   position: relative;
   min-height: 100vh;
   background-color: #fff;
-  width: 261px;
+  width: 350px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
+  /* object-fit: cover; */
+
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+@media only screen and (max-device-width: 480px) {
+  .app-screen {
+    width: 100%;
+  }
 }

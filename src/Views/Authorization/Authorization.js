@@ -17,7 +17,6 @@ const Authorization = () => {
                         <img src={Logo} alt="logo" />
                     </div>
                 </div>
-
                 <div style={styles.footer}>
                     <MDBBtn style={styles.roundedBtn} color="white">
                         <img src={googleIcon} alt="google-icon" style={styles.icon} />
@@ -64,6 +63,7 @@ const styles = {
     pageContainer: {
         flex: 1,
         display: 'flex',
+        minHeight: '100vh',
         flexDirection: 'column',
         justifyContent: 'space-between',
     },

@@ -1,3 +1,12 @@
-import HappinessProgram from './HappinessProgram';
+import React from "react";
+import AppContainer from '../../Components/AppContainer';
 
-export default HappinessProgram
+const HappinessProgram = () => {
+    return (
+        <AppContainer gradient="linear-gradient(180deg, #5574F7 0%, #A38CFF 100%)">
+            <h1>HappinessProgram</h1>
+        </AppContainer>
+    )
+}
+
+export default HappinessProgram;
