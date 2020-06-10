@@ -12,7 +12,7 @@ const AppContainer = ({ children, gradient = 'linear-gradient(180deg, #36D1DC -9
 const styles = {
     container: gradient => {
         return {
-            backgroundImage: `url(${BgImage}), ${gradient}`,
+            backgroundImage: `${gradient}`,
             
         }
     }

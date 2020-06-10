@@ -61,6 +61,7 @@ const styles = {
         width: '16px',
     },
     pageContainer: {
+        
         flex: 1,
         display: 'flex',
         minHeight: '100vh',

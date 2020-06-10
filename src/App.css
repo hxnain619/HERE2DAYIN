@@ -18,7 +18,17 @@
   /* display: flex; */
   /* flex-direction: column; */
 }
-
+.app-screen::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: url(./Assets/background.svg) center/cover;
+}
 @media only screen and (max-device-width: 480px) {
   .app-screen {
     width: 100%;
